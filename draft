@@ -1,0 +1,83 @@
+// Seed data representing vetted Philadelphia Youth Resources
+const RESOURCES_DATA = [
+  {
+    id: "c2l-phl",
+    title: "Career Connected Learning PHL (C2L-PHL)",
+    organization: "City of Philadelphia / JEVS",
+    minAge: 12,
+    maxAge: 24,
+    cost: "Paid Stipend",
+    category: "Employment",
+    eligibility: [
+      "Must be Philadelphia resident aged 12–24",
+      "Earn paid stipends for internships & service projects",
+      "Priority given to enrolled in-school youth"
+    ],
+    applicationUrl: "https://www.phila.gov/programs/career-connected-learning-phl-c2l-phl/",
+    status: "Accepting Applications"
+  },
+  {
+    id: "workready-boost",
+    title: "WorkReady BOOST Career Readiness",
+    organization: "Philadelphia Youth Network (PYN)",
+    minAge: 14,
+    maxAge: 21,
+    cost: "Paid Stipend",
+    category: "Employment",
+    eligibility: [
+      "Must be currently enrolled in a Philadelphia High School",
+      "120 hours of paid training ($11/hr starting wage)",
+      "Requires photo ID & basic application"
+    ],
+    applicationUrl: "https://www.pyninc.org/workreadyboost",
+    status: "Accepting Applications"
+  },
+  {
+    id: "philly-stem-scholars",
+    title: "Philly Future STEM Mentorship",
+    organization: "Community Youth Alliance",
+    minAge: 14,
+    maxAge: 18,
+    cost: "100% Free",
+    category: "Education",
+    eligibility: [
+      "Philly High School students aged 14–18",
+      "Free weekly tutoring & 1-on-1 industry mentor",
+      "No GPA minimum required to apply"
+    ],
+    applicationUrl: "https://example.org/apply",
+    status: "Accepting Applications"
+  },
+  {
+    id: "youth-housing-dropin",
+    title: "Youth Safe Haven Drop-In & Counseling",
+    organization: "Valley Youth House",
+    minAge: 16,
+    maxAge: 21,
+    cost: "100% Free",
+    category: "Housing",
+    eligibility: [
+      "Young adults aged 16–21 needing safe housing or support",
+      "Immediate walk-in assistance, meal access, & case management",
+      "No identification required for emergency drop-in"
+    ],
+    applicationUrl: "https://example.org/housing",
+    status: "Open Year-Round"
+  },
+  {
+    id: "philly-art-lab",
+    title: "Youth Creative Media & Arts Fellowship",
+    organization: "Mural Arts Philadelphia",
+    minAge: 15,
+    maxAge: 21,
+    cost: "Paid Stipend",
+    category: "Arts",
+    eligibility: [
+      "Youth artists aged 15–21 residing in Philadelphia",
+      "Stipend provided upon completion of weekly workshops",
+      "Must commit to 4 hours per week"
+    ],
+    applicationUrl: "https://example.org/mural-arts",
+    status: "Waitlist Only"
+  }
+];
